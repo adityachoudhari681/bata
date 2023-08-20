@@ -1,0 +1,1257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+a:hover {
+  background-color: rgb(252, 144, 144);
+  color: azure;
+  border-radius: 6%;
+}
+.card_without_text2 {
+  margin-top: 5px;
+  margin-bottom: 12px;
+  margin-right: 0px;
+  margin-left: 11px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_without_text3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 0px;
+  margin-left: 11px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.special_card {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 11px;
+}
+.special_img_card {
+  width: 50%;
+}
+.img_card_without_text1 {
+  width: 33.33%;
+}
+.img_card_without_text2 {
+  width: 33.33%;
+}
+.img_card_without_text3 {
+  width: 33.33%;
+}
+.button {
+  background-color: red;
+}
+.button:hover {
+  background-color: black;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.card_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.card_text:hover {
+  box-shadow: 5px 5px 5px 2px rgba(94, 94, 94, 0.63);
+}
+.card_text_heading {
+  font-size: 30px;
+  padding-left: 245px;
+  padding-top: 19px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+.description {
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.button2 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 5%;
+  margin-right: 65px;
+  margin-left: 330px;
+  margin-top: 50px;
+  background-color: black;
+  color: antiquewhite;
+}
+.button2:hover {
+  color: black;
+  background-color: antiquewhite;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.footer {
+  background-color: rgb(202, 213, 224);
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  align-items: center;
+  justify-content: center;
+}
+.disha_img {
+  padding-top: 90px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+.disha {
+  margin-left: 7px;
+  margin-right: 5px;
+}
+
+.card_text_img {
+  width: auto;
+  height: auto;
+}
+.copyright {
+  background-color: rgb(202, 213, 224);
+  font-size: 15px;
+  padding-left: 600px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  font-weight: bolder;
+}
+.icon {
+  width: 55px;
+  height: auto;
+  border-radius: 50%;
+}
+.follow {
+  width: 16.667%;
+  display: flex;
+  flex-direction: column;
+}
+.fimg {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+.icon:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 2px rgba(241, 77, 77, 0.61);
+}
+.footer_p {
+  font-family: "Times New Roman";
+  font-weight: bolder;
+  font-size: 17px;
+  padding-top: 29px;
+  padding-bottom: 5px;
+}
+.footer_list {
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
+.header {
+  border-radius: 1.5px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  background-color: rgb(243, 239, 233);
+  font-size: 22px;
+  position: fixed;
+  overflow: hidden;
+}
+.card_without_text1 {
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  margin-right: 0px;
+  margin-left: 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+/*Media Queries*/
+/* Large Screens*/
+@media only screen and (max-width: 1200px) {
+  .header {
+    gap: 53.5px;
+    font-size: 20px;
+    padding-right: 8.9px;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 23px;
+    padding-left: 124px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card_text_img {
+    width: 461px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 210px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 13px;
+    padding-left: 430px;
+  }
+  .icon {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 13px;
+  }
+}
+/*Desktop and large screen laptops*/
+@media screen and (max-width: 1113px) {
+  .header {
+    gap: 45px;
+    font-size: 20px;
+    padding-right: 8.9px;
+  }
+  #tryon
+  {
+   display: none;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 23px;
+    padding-left: 124px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card_text_img {
+    width: 461px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 185px;
+    margin-top: 40px;
+  }
+  .footer {
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 13px;
+    padding-left: 430px;
+  }
+  .icon {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .header {
+    gap: 45px;
+    font-size: 20px;
+    padding-right: 8.9px;
+  }
+  #tryon,#brands
+  {
+   display: none;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 23px;
+    padding-left: 124px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card_text_img {
+    width: 370px;
+    height: auto;
+    margin-left: 25px;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 185px;
+    margin-top: 40px;
+  }
+  .footer {
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 13px;
+    padding-left: 430px;
+  }
+  .icon {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 855px) {
+  .header {
+    gap: 30px;
+    font-size: 18px;
+    padding-right: 8.9px;
+    
+  }
+  #tryon,#brands
+  {
+    display: none;
+  }
+  .disha_img {
+    padding-top: 83px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .card_text {
+    display: block;
+    
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 22px;
+    padding-left: 0px;
+    padding-top: 19px;
+    margin-left: 155px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+  .card_text_img {
+    width:780px;
+    height: auto;
+    margin-left: 163px;
+  }
+  button {
+    margin-left: 330px;
+    margin-top: 35px;
+  }
+ 
+}
+@media only screen and (max-width: 999px) {
+  .header {
+    gap: 30px;
+    font-size: 18px;
+    padding-right: 8.9px;
+    
+  }
+  #tryon
+  {
+    display: none;
+  }
+  .disha_img {
+    padding-top: 83px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 23px;
+    padding-left: 124px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card_text_img {
+    width: 461px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 210px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 13px;
+    padding-left: 430px;
+  }
+  .icon {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header {
+    gap: 53.5px;
+    font-size: 20px;
+    padding-right: 8.9px;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 23px;
+    padding-left: 124px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card_text_img {
+    width: 461px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 210px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 13px;
+    padding-left: 430px;
+  }
+  .icon {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 13px;
+  }
+}
+/*Desktop and large screen laptops*/
+@media screen and (max-width: 992px) {
+  .header {
+    gap: 46px;
+    font-size: 20px;
+    padding-right: 8.9px;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 4.5px;
+    gap: 5px;
+    margin-top: 3.5px;
+  }
+  .special_card {
+    gap: 3px;
+    margin-left: 4.5px;
+  }
+  .card_text {
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .card_text_heading {
+    font-size: 23px;
+    padding-left: 124px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card_text_img {
+    width: 461px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 330px;
+    margin-top: 35px;
+  }
+  .footer {
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 13px;
+    padding-left: 430px;
+  }
+  .icon {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 13px;
+  }
+}
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .header {
+    gap: 8px;
+    font-size: 14px;
+    padding-right: 4px;
+  }
+  .disha_img {
+    padding-top: 65px;
+    width: 100%;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 2.4px;
+    gap: 2px;
+    margin-top: 2px;
+  }
+  .special_card {
+    gap: 2px;
+    margin-left: 2.5px;
+  }
+  .card_text {
+    margin-left: 2.5px;
+    margin-right: 4px;
+  }
+  .card_text_heading {
+    font-size: 17px;
+    padding-left: 100px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .card_text_img {
+    min-width: 245px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 21px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 12px;
+    padding-left: 210px;
+  }
+  .icon {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 12px;
+  }
+}
+/* Mobile Phones{large screen} and tablets  */
+@media screen and (max-width: 600px) {
+  .header {
+    gap: 8px;
+    font-size: 14px;
+    padding-right: 4px;
+  }
+  .disha_img {
+    padding-top: 65px;
+    width: 100%;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 2.4px;
+    gap: 2px;
+    margin-top: 2px;
+  }
+  .special_card {
+    gap: 2px;
+    margin-left: 2.5px;
+  }
+  .card_text {
+    margin-left: 2.5px;
+    margin-right: 4px;
+  }
+  .card_text_heading {
+    font-size: 17px;
+    padding-left: 100px;
+    padding-top: 19px;
+    margin-left: 25px;
+  }
+  .description {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .card_text_img {
+    min-width: 245px;
+    height: auto;
+    width: 370px;
+    margin-left:20px;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 11px;
+    align-items: flex-start;
+    justify-content: first baseline;
+    padding-left:12px;
+    padding-right:12px;
+  }
+  .copyright {
+    font-size: 12px;
+    padding-left: 130px;
+  }
+  .icon {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 12px;
+  }
+}
+/*Normal Mobile Phones */
+@media screen and (max-width:360px) {
+  .header {
+    gap: 0px;
+    font-size: 11px;
+    padding-right: 1.5px;
+  }
+  .disha_img {
+    padding-top: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 2.4px;
+    gap: 2px;
+    margin-top: 2px;
+    display: block;
+  }
+  .special_card {
+    gap: 2px;
+    margin-left: 2.5px;
+  }
+  .card_text {
+    margin-left: 2.5px;
+    margin-right: 4px;
+    display: block;
+  }
+  .card_text_heading {
+    font-size: 17px;
+    padding-left: 100px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 17px;
+    padding-right: 27px;
+  }
+  .card_text_img {
+    min-width: 245px;
+    height: auto;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 21px;
+    align-items: flex-start;
+    justify-content: first baseline;
+  }
+  .copyright {
+    font-size: 12px;
+    padding-left: 210px;
+  }
+  .icon {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fimg {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 29px;
+    padding-bottom: 5px;
+  }
+  .footer_list {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 322px) {
+  .header {
+    gap: 0px;
+    font-size: 11px;
+    padding-right: 1.5px;
+  }
+  .disha_img {
+    padding-top: 65px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    margin-left: 2.4px;
+    gap: 2px;
+    margin-top: 2px;
+    display: block;
+    padding-left: 8px;
+  }
+  .img_card_without_text1,.img_card_without_text2,.img_card_without_text3
+  {
+    width: 80px;
+    height: auto;
+  }
+
+  .special_card {
+    gap: 2px;
+    margin-left: 2.5px;
+  }
+  .card_text {
+    margin-left: 2.5px;
+    margin-right: 4px;
+    display: block;
+  }
+  .card_text_heading {
+    font-size: 17px;
+    padding-left: 0px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .card_text_img {
+    min-width: 245px;
+    height: auto;
+    width: 245px;
+    margin-left: 12px;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 72px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: first baseline;
+    display: block;
+    padding-left:25px ;
+    padding-right: 12px;
+  }
+  .copyright {
+    font-size: 12px;
+    padding-left: 45px;
+  }
+  .icon {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: block;
+  }
+  .fimg {
+    display: block;
+    width: 200px;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-bottom: 0x;
+    width: 100px;
+  }
+  .footer_list {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:276px) {
+  .header {
+    gap: 0px;
+    font-size: 11px;
+    padding-right: 1.5px;
+  }
+  .disha_img {
+    padding-top: 65px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #women
+  {
+    display: none;
+  }
+  .card_without_text1,
+  .card_without_text2,
+  .card_without_text3 {
+    gap: 2px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img_card_without_text1,.img_card_without_text2,.img_card_without_text3
+  {
+    width: 230px;
+    height: auto;
+  }
+  .special_img_card
+  {
+    width: 250px;
+    height: auto;
+  }
+  .special_card {
+    gap: 2px;
+    margin-left: 2.5px;
+    display: block;
+    padding-top:8px ;
+    padding-bottom: 8px;
+    padding-left:4px ;
+    padding-right: 15px;
+  }
+  .card_text {
+    margin-left: 2.5px;
+    margin-right: 4px;
+    display: block;
+  }
+  .card_text_heading {
+    font-size: 17px;
+    padding-left: 0px;
+    padding-top: 19px;
+  }
+  .description {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .card_text_img {
+    min-width: 245px;
+    height: auto;
+    width: 245px;
+    margin-left: 12px;
+  }
+  .button2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 65px;
+    margin-left: 72px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: first baseline;
+    display: block;
+    padding-left:25px ;
+    padding-right: 12px;
+  }
+  .copyright {
+    font-size: 12px;
+    padding-left: 45px;
+  }
+  .icon {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .follow {
+    width: 16.667%;
+    display: block;
+    
+  }
+  .fimg {
+    display: block;
+    width: 200px;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .footer_p {
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-bottom: 0x;
+    width: 100px;
+  }
+  .footer_list {
+    font-size: 12px;
+  }
+
+}
