@@ -8,11 +8,57 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+  <style>
+    html {
+        box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+    .row
+{
+    
+    padding-top: 10px;
+
+}
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+ </style>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Book My Shoe</title>
+    <title>Bata</title>
   </head>
   <body>
     <div class="header">
@@ -29,23 +75,35 @@
       <div class="disha">
         <img class="disha_img" src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwb65a9c39/Hero%20Banner%20Slider/Bata-LP_24x7_DishaKV_WebsiteBanner-Desktop.jpg?sw=1403&sfrm=jpg&q=100" alt="brand ambasador">
       </div>
-      <div class="card_without_text1">
-        <img
-          class="img_card_without_text1"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwd8cecae9/Three%20Image%20Block/Bata_24x7_Website_3Component-RedLabel.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="img_card_without_text1"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw12edb7cd/Three%20Image%20Block/Bata_24x7_Website_3Component-Naturalizer.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="img_card_without_text1"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw921b0050/Three%20Image%20Block/Bata_24x7_Website_3Component-Comfit.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-      </div>
+      <!--Card WITHOUT Text-->
+      <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwd8cecae9/Three%20Image%20Block/Bata_24x7_Website_3Component-RedLabel.jpg?sw=447&sfrm=jpg&q=100"
+                    alt=" Image" style="width:100%">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw12edb7cd/Three%20Image%20Block/Bata_24x7_Website_3Component-Naturalizer.jpg?sw=447&sfrm=jpg&q=100"
+                    alt="Image" style="width:100%">
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw921b0050/Three%20Image%20Block/Bata_24x7_Website_3Component-Comfit.jpg?sw=447&sfrm=jpg&q=100"
+                    alt="Image" style="width:100%">
+
+            </div>
+        </div>
+
+
+    </div>
+      <!--End-->
+
       <div class="card_text">
         <img class="card_text_img"
           src="https://media.istockphoto.com/id/1304166036/photo/classic-male-brown-leather-shoes.jpg?b=1&s=170667a&w=0&k=20&c=jxUqR9_lSXAApwVnZHdBJIh4EAzEM03ebCty1KJUZrk="
@@ -70,23 +128,35 @@
           <button class="button2">BOOK NOW</button>
         </div>
       </div>
-      <div class="card_without_text2">
-        <img
-          class="img_card_without_text2"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw18f7ce9a/Three%20Image%20Block/Bata_24x7_Website_2Component-SummerEssentials%20-%20Copy.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="img_card_without_text2"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwdadfbad4/Three%20Image%20Block/Bata_24x7_Website_2Component-SchollBioprint%20-%20Copy.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="img_card_without_text2"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw84f3ca77/Three%20Image%20Block/600x600-px-(3-block-component-Handbags)%20-%20Copy.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-      </div>
+      
+      <!--Card WITHOUT Text-->
+      <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw18f7ce9a/Three%20Image%20Block/Bata_24x7_Website_2Component-SummerEssentials%20-%20Copy.jpg?sw=447&sfrm=jpg&q=100"
+                    alt=" Image" style="width:100%">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwdadfbad4/Three%20Image%20Block/Bata_24x7_Website_2Component-SchollBioprint%20-%20Copy.jpg?sw=447&sfrm=jpg&q=100"
+                    alt="Image" style="width:100%">
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw84f3ca77/Three%20Image%20Block/600x600-px-(3-block-component-Handbags)%20-%20Copy.jpg?sw=447&sfrm=jpg&q=100"
+                    alt="Image" style="width:100%">
+
+            </div>
+        </div>
+
+
+    </div>
+      <!--End-->
       <div class="card_text">
         <img  class="card_text_img"
           src="https://images.unsplash.com/photo-1610969524113-bae462bb3892?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -141,24 +211,34 @@
           <button class="button2">BOOK NOW</button>
         </div>
       </div>
-      <div class="card_without_text3">
-        <img
-          class="img_card_without_text3"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw825a57e2/Three%20Image%20Block/Bata_24x7_Website_3Component-1199.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="img_card_without_text3"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw82a565fe/Three%20Image%20Block/Bata_24x7_Website_3Component-1499.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="img_card_without_text3"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw706bc3d3/Three%20Image%20Block/Bata_24x7_Website_3Component-1999.jpg?sw=447&sfrm=jpg&q=100"
-          alt=""
-        />
-      </div>
-    </div>
+      <!--Card WITHOUT Text-->
+          <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw825a57e2/Three%20Image%20Block/Bata_24x7_Website_3Component-1199.jpg?sw=447&sfrm=jpg&q=100"
+                        alt=" Image" style="width:100%">
+    
+                </div>
+            </div>
+    
+            <div class="column">
+                <div class="card">
+                    <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw82a565fe/Three%20Image%20Block/Bata_24x7_Website_3Component-1499.jpg?sw=447&sfrm=jpg&q=100"
+                        alt="Image" style="width:100%">
+    
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw706bc3d3/Three%20Image%20Block/Bata_24x7_Website_3Component-1999.jpg?sw=447&sfrm=jpg&q=100"
+                        alt="Image" style="width:100%">
+    
+                </div>
+            </div>
+    
+    
+        </div>
+          <!--End-->
     <!--Footer-->
     <div class="footer">
         <div class="help">
