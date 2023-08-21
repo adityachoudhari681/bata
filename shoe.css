@@ -11,37 +11,11 @@ a {
   padding-right: 15px;
 }
 a:hover {
-  background-color: rgb(252, 144, 144);
+  background-color: red;
   color: azure;
   border-radius: 6%;
 }
-.card_without_text2 {
-  margin-top: 5px;
-  margin-bottom: 12px;
-  margin-right: 0px;
-  margin-left: 11px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  overflow: hidden;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
 
-.card_without_text3 {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  margin-right: 0px;
-  margin-left: 11px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  overflow: hidden;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
 .special_card {
   display: flex;
   flex-direction: row;
@@ -51,21 +25,12 @@ a:hover {
 .special_img_card {
   width: 50%;
 }
-.img_card_without_text1 {
-  width: 33.33%;
-}
-.img_card_without_text2 {
-  width: 33.33%;
-}
-.img_card_without_text3 {
-  width: 33.33%;
-}
 .button {
   background-color: red;
 }
 .button:hover {
   background-color: black;
-  color: antiquewhite;
+  color: snow;
   cursor: pointer;
 }
 .card_text {
@@ -104,16 +69,16 @@ a:hover {
   margin-left: 330px;
   margin-top: 50px;
   background-color: black;
-  color: antiquewhite;
+  color: snow;
 }
 .button2:hover {
   color: black;
-  background-color: antiquewhite;
+  background-color: snow;
   font-weight: bolder;
   cursor: pointer;
 }
 .footer {
-  background-color: rgb(202, 213, 224);
+  background-color: rgb(255, 227, 203);
   display: flex;
   flex-direction: row;
   gap: 65px;
@@ -137,7 +102,7 @@ a:hover {
   height: auto;
 }
 .copyright {
-  background-color: rgb(202, 213, 224);
+  background-color: sandybrown;
   font-size: 15px;
   padding-left: 600px;
   padding-top: 20px;
@@ -162,7 +127,7 @@ a:hover {
 }
 .icon:hover {
   cursor: pointer;
-  box-shadow: 5px 5px 5px 2px rgba(241, 77, 77, 0.61);
+  box-shadow: 5px 5px 5px 2px red;
 }
 .footer_p {
   font-family: "Times New Roman";
@@ -176,32 +141,18 @@ a:hover {
   font-size: 16px;
 }
 .header {
-  border-radius: 1.5px;
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
-
   align-items: center;
   justify-content: center;
   gap: 80px;
-  background-color: rgb(243, 239, 233);
+  background-color:snow;
   font-size: 22px;
   position: fixed;
   overflow: hidden;
 }
-.card_without_text1 {
-  padding-top: 10px;
-  margin-top: 5px;
-  margin-bottom: 12px;
-  margin-right: 0px;
-  margin-left: 7px;
-  display: flex;
-  flex-direction: row;
-  gap: 9px;
-  overflow: hidden;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
+
 /*Media Queries*/
 /* Large Screens*/
 @media only screen and (max-width: 1200px) {
@@ -296,13 +247,6 @@ a:hover {
   {
    display: none;
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 4.5px;
-    gap: 5px;
-    margin-top: 3.5px;
-  }
   .special_card {
     gap: 3px;
     margin-left: 4.5px;
@@ -379,13 +323,6 @@ a:hover {
   #tryon,#brands
   {
    display: none;
-  }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 4.5px;
-    gap: 5px;
-    margin-top: 3.5px;
   }
   .special_card {
     gap: 3px;
@@ -477,13 +414,6 @@ a:hover {
     display: block;
     
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 4.5px;
-    gap: 5px;
-    margin-top: 3.5px;
-  }
   .special_card {
     gap: 3px;
     margin-left: 4.5px;
@@ -533,13 +463,6 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: auto;
-  }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 4.5px;
-    gap: 5px;
-    margin-top: 3.5px;
   }
   .special_card {
     gap: 3px;
@@ -615,13 +538,7 @@ a:hover {
     font-size: 20px;
     padding-right: 8.9px;
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 4.5px;
-    gap: 5px;
-    margin-top: 3.5px;
-  }
+
   .special_card {
     gap: 3px;
     margin-left: 4.5px;
@@ -697,13 +614,7 @@ a:hover {
     font-size: 20px;
     padding-right: 8.9px;
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 4.5px;
-    gap: 5px;
-    margin-top: 3.5px;
-  }
+
   .special_card {
     gap: 3px;
     margin-left: 4.5px;
@@ -782,13 +693,7 @@ a:hover {
     padding-top: 65px;
     width: 100%;
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 2.4px;
-    gap: 2px;
-    margin-top: 2px;
-  }
+
   .special_card {
     gap: 2px;
     margin-left: 2.5px;
@@ -868,13 +773,7 @@ a:hover {
     padding-top: 65px;
     width: 100%;
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 2.4px;
-    gap: 2px;
-    margin-top: 2px;
-  }
+
   .special_card {
     gap: 2px;
     margin-left: 2.5px;
@@ -961,14 +860,7 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 2.4px;
-    gap: 2px;
-    margin-top: 2px;
-    display: block;
-  }
+
   .special_card {
     gap: 2px;
     margin-left: 2.5px;
@@ -1050,15 +942,6 @@ a:hover {
     width: 100%;
     justify-content: center;
     align-items: center;
-  }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    margin-left: 2.4px;
-    gap: 2px;
-    margin-top: 2px;
-    display: block;
-    padding-left: 8px;
   }
   .img_card_without_text1,.img_card_without_text2,.img_card_without_text3
   {
@@ -1155,14 +1038,6 @@ a:hover {
   #women
   {
     display: none;
-  }
-  .card_without_text1,
-  .card_without_text2,
-  .card_without_text3 {
-    gap: 2px;
-    margin-top: 2px;
-    display: flex;
-    flex-direction: column;
   }
   .img_card_without_text1,.img_card_without_text2,.img_card_without_text3
   {
