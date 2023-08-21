@@ -25,6 +25,7 @@
         margin-bottom: 16px;
         padding: 0 8px;
     }
+    
     .row
 {
     
@@ -53,6 +54,46 @@
         clear: both;
         display: table;
     }
+    .card_text
+    {
+      overflow: auto;
+    }
+    .columnstar {
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+    
+    .rowstar
+{
+    
+    padding-top: 10px;
+
+}
+
+    @media screen and (max-width: 650px) {
+        .columnstar {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .rowstar::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
  </style>
   <head>
     <meta charset="UTF-8" />
@@ -177,19 +218,25 @@
           <button class="button2">BOOK NOW</button>
         </div>
       </div>
-
-      <div class="special_card">
-        <img
-          class="special_img_card"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw942df17c/Two%20Image%20Block/Bata_24x7_Website_2Component-HP_Female.jpg?sw=698&sfrm=jpg&q=100"
-          alt=""
-        />
-        <img
-          class="special_img_card"
-          src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwf0ed6214/Two%20Image%20Block/Bata_24x7_Website_2Component-HP_Male.jpg?sw=698&sfrm=jpg&q=100"
-          alt=""
-        />
-      </div>
+            <!--Card WITHOUT Text-->
+            <div  class="rowstar">
+              <div class="columnstar">
+                  <div class="card">
+                      <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw942df17c/Two%20Image%20Block/Bata_24x7_Website_2Component-HP_Female.jpg?sw=698&sfrm=jpg&q=100"
+                          alt=" Image" style="width:100%">
+      
+                  </div>
+              </div>
+      
+              <div class="columnstar">
+                  <div class="card">
+                      <img src="https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwf0ed6214/Two%20Image%20Block/Bata_24x7_Website_2Component-HP_Male.jpg?sw=698&sfrm=jpg&q=100"
+                          alt="Image" style="width:100%">
+      
+                  </div>
+                </div> 
+              </div>
+            <!--End-->
       <div class="card_text">
         <img class="card_text_img"
           src="https://media.istockphoto.com/id/1341458002/photo/sportsmen-running-on-stairs.jpg?b=1&s=170667a&w=0&k=20&c=TfGoCDJ6O6K_vVfuFoS9InzLs0qYWqdAPIxXO-v0EGE="
